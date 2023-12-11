@@ -3,9 +3,7 @@ package tp1;
 public class Exo_3 {
     public static void main(String[] args) {
         int input = 641;
-        // initialisation de la variable reverse
         int reverse = 0;
-        // sauvegarde de la valeur originale pour la vérification
         int checkInput = input;
 
         while (input != 0) {

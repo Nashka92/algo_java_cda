@@ -1,6 +1,6 @@
 package tp1;
 
-public class exo_2 {
+public class Exo_2 {
     public static void main(String[] args) {
         float htc = 100;
 

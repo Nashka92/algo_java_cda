@@ -1,6 +1,6 @@
 package tp1;
 
-public class exo_1 {
+public class Exo_1 {
     public static void main(String[] args) {
         int[] tabNote = new int[3];
         tabNote[0] = 10;

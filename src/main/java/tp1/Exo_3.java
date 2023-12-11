@@ -3,17 +3,15 @@ package tp1;
 public class Exo_3 {
     public static void main(String[] args) {
         int input = 657;
+        int reverse = 0;
 
-        if (palindrome(input)) {
-            System.out.println("Ce nombre " + input + " est un palindrome");
-        } else {
-            System.out.println("Ce nombre " + input + " n'est pas un palindrome");
-        }
-    }
+        while(input != 0){
+            int reste = input % 10;
+            reverse = reverse * 10 + reste;
+            input = input / 10;
+        };
 
-    public static boolean palindrome(int) {
-        int nombreInverse = 0;
-
-        return
+        System.out.println("l'inverse de nombre est: " + reverse);
     };
+
 }

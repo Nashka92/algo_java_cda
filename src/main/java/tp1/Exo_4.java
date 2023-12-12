@@ -8,6 +8,7 @@ public class Exo_4 {
 /**
  * imbrication de boucle, parcours le tableau et compare les deux itérations
  * pour voir s'il y a un doublon ou non
+ * si cest egale, il retourne a true, sinon il retourne a false
  */
         for (int i = 0; i < tab.length; i++) {
             for (int j = i + 1; j < tab.length; j++) {

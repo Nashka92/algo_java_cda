@@ -2,7 +2,7 @@ package tp2;
 
 public class Thermometre {
     private double celsius;
-    public Thermometre(double c){
+    public Thermometre(double celsius){
         this.celsius = celsius;
     };
     public Thermometre(){
@@ -11,24 +11,23 @@ public class Thermometre {
 
     //getter et setter
     public double getCelsius() {
-        return celsius;
+        return this.celsius;
     }
-    public void setCelsius(double temperature) {
-        this.celsius = temperature;
+    public void setCelsius(double NouvelleTemperatureEnCelsius) {
+        this.celsius = NouvelleTemperatureEnCelsius;
     }
     public double getFahrenheit() {
-        return celsius * 1.8 + 32;
+        return this.celsius * 1.8 + 32;
     }
-    public void setFahrenheit(double temperature) {
-        this.celsius = (temperature - 32) / 1.8;
+    public void setFahrenheit(double NouvelleTemperatureEnCelsius) {
+        this.celsius = (NouvelleTemperatureEnCelsius - 32) / 1.8;
     }
 
     public double getKelvin() {
-        return celsius + 273.15;
+        return this.celsius + 273.15;
     }
 
-    public void setKelvin(double temperature) {
-        this.celsius = temperature - 273.15;
+    public void setKelvin(double NouvelleTemperatureEnCelsius) {
+        this.celsius = NouvelleTemperatureEnCelsius - 273.15;
     }
-
 }

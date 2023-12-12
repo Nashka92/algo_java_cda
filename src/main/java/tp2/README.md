@@ -1,9 +1,11 @@
 @startuml
 
-class Thermometre {
-
+class ThermometreCorinne {
 +celsius: int
+}
 
+class Thermometre {
+-celsius
 getFarenheint()
 setFarenheint()
 
@@ -12,7 +14,6 @@ setKelvin()
 
 getCelsius()
 setCelsius()
-
 }
 
 @enduml

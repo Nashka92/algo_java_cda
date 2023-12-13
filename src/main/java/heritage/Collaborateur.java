@@ -46,4 +46,8 @@ public class Personne {
     public int getAge() {
         return Period.between(dateNaissance, LocalDate.now()).getYears();
     }
+
+    public void direBonjour(){
+        System.out.println("Hello world");
+    }
 }
